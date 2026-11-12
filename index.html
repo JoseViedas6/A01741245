@@ -41,7 +41,8 @@
     }
     .nav { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
     .brand { display: flex; align-items: center; gap: 12px; font-family:"Montserrat",sans-serif; font-weight: 800; color: var(--navy); letter-spacing: .05em; }
-    .brand-mark { width: 42px; height: 42px; border-radius: 50%; display: grid; place-items: center; color: var(--navy); background: var(--navy); border:2px solid var(--gold); overflow:hidden; }
+    .brand-mark { width: 46px; height: 46px; border-radius: 50%; display: grid; place-items: center; overflow:hidden; flex:0 0 46px; box-shadow:0 4px 14px rgba(11,31,58,.12); }
+    .brand-mark img { width:100%; height:100%; display:block; object-fit:cover; }
     .brand small { display: block; color: var(--muted); font-size: 9px; letter-spacing: .18em; font-weight: 700; margin-top: -3px; }
     .navlinks { display: flex; gap: 26px; align-items: center; color: #526174; font-size: 13px; font-weight: 650; }
     .navlinks a:hover { color: var(--blue); }
@@ -325,14 +326,7 @@
   <header class="topbar">
     <div class="container nav">
       <a class="brand" href="#inicio" aria-label="A01741245 inicio">
-        <span class="brand-mark" aria-hidden="true">
-          <svg viewBox="0 0 100 100" width="34" height="34">
-            <circle cx="50" cy="50" r="35" fill="none" stroke="#F5A623" stroke-width="5"/>
-            <path d="M30 58 L44 38 L70 38 L57 61 Z" fill="#2473B8" stroke="#FFFFFF" stroke-width="2"/>
-            <path d="M46 38 L40 59 M58 38 L52 60 M34 48 L66 48" stroke="#FFFFFF" stroke-width="2"/>
-            <path d="M17 72 Q49 54 84 40" fill="none" stroke="#F5A623" stroke-width="5" stroke-linecap="round"/>
-          </svg>
-        </span>
+        <span class="brand-mark"><img src="assets/a01741245-logo.svg" alt=""></span>
         <span>A01741245<small>SOLUCIONES FOTOVOLTAICAS</small></span>
       </a>
       <nav class="navlinks" aria-label="Navegación principal">
@@ -356,28 +350,10 @@
             <a class="button" href="#solucion">Explorar la solución</a>
             <a class="button secondary" href="#proceso">Ver cómo funciona</a>
           </div>
-          <p class="hero-note">Proyecto académico · TE1020 Análisis de Circuitos Eléctricos</p>
+          <p class="hero-note">Soluciones fotovoltaicas · Ingeniería aplicada · Energía limpia</p>
         </div>
         <div class="logo-card">
-          <svg viewBox="0 0 520 520" role="img" aria-label="Logotipo circular A01741245 Soluciones Fotovoltaicas" style="width:100%;max-width:390px;height:auto">
-            <circle cx="260" cy="260" r="220" fill="#0B1F3A" stroke="#F5A623" stroke-width="12"/>
-            <g transform="translate(0,-28)">
-              <path d="M160 215 Q260 125 360 215" fill="none" stroke="#F5A623" stroke-width="18" stroke-linecap="round"/>
-              <g stroke="#F5A623" stroke-width="8" stroke-linecap="round">
-                <line x1="260" y1="108" x2="260" y2="78"/>
-                <line x1="205" y1="121" x2="188" y2="94"/>
-                <line x1="315" y1="121" x2="332" y2="94"/>
-                <line x1="168" y1="158" x2="140" y2="142"/>
-                <line x1="352" y1="158" x2="380" y2="142"/>
-              </g>
-              <path d="M188 242 L238 180 L337 180 L292 249 Z" fill="#2473B8" stroke="#FFFFFF" stroke-width="5"/>
-              <path d="M240 180 L218 244 M286 180 L265 246 M201 210 L316 210" stroke="#FFFFFF" stroke-width="4"/>
-              <path d="M130 282 Q255 218 392 185" fill="none" stroke="#F5A623" stroke-width="14" stroke-linecap="round"/>
-            </g>
-            <text x="260" y="335" text-anchor="middle" fill="#FFFFFF" font-family="Montserrat,Arial,sans-serif" font-size="44" font-weight="800">A01741245</text>
-            <text x="260" y="377" text-anchor="middle" fill="#FFFFFF" font-family="Poppins,Arial,sans-serif" font-size="16" font-weight="600" letter-spacing="4">SOLUCIONES</text>
-            <text x="260" y="401" text-anchor="middle" fill="#FFFFFF" font-family="Poppins,Arial,sans-serif" font-size="16" font-weight="600" letter-spacing="4">FOTOVOLTAICAS</text>
-          </svg>
+          <img src="assets/a01741245-logo.svg" alt="Logotipo A01741245 Soluciones Fotovoltaicas">
           <div class="logo-caption">Profesional · Confiable · Tecnológico · Sostenible</div>
         </div>
       </div>
@@ -606,7 +582,7 @@
       <div class="container">
         <div class="eyebrow">A01741245 · Soluciones Fotovoltaicas</div>
         <h2>Diseñar con energía. Decidir con información.</h2>
-        <p>Una propuesta académica que aplica los fundamentos del análisis de circuitos eléctricos al dimensionamiento preliminar de soluciones fotovoltaicas.</p>
+        <p>Una plataforma que combina ingeniería aplicada, visualización técnica y herramientas digitales para comprender y evaluar soluciones fotovoltaicas.</p>
         <a class="button" href="#inicio">Volver al inicio</a>
       </div>
     </section>
@@ -614,7 +590,7 @@
 
   <footer>
     <div class="container footer-inner">
-      <div><div class="footer-brand">A01741245</div><div>SOLUCIONES FOTOVOLTAICAS · Proyecto académico TE1020</div></div>
+      <div><div class="footer-brand">A01741245</div><div>SOLUCIONES FOTOVOLTAICAS · Profesional · Confiable · Tecnológico · Sostenible</div></div>
       <div class="disclaimer">Este sitio presenta de forma estática la solución propuesta. El dimensionamiento y la cotización finales requieren datos medidos, fichas técnicas verificadas y validación profesional. No constituye un proyecto ejecutivo.</div>
     </div>
   </footer>
