@@ -1,12 +1,19 @@
-# JVOLT | Landing page
+# A01741245 | Soluciones Fotovoltaicas
 
-Sitio estático de presentación para el proyecto académico de TE1020.
+Landing page corporativa e interactiva para una empresa de soluciones fotovoltaicas.
 
-## Publicar en GitHub Pages
-1. Sube `index.html` y la carpeta `assets/` a la raíz de tu repositorio.
-2. En GitHub abre **Settings → Pages**.
-3. En **Build and deployment**, selecciona **Deploy from a branch**.
-4. Selecciona la rama `main` y la carpeta `/ (root)`.
-5. Guarda y espera a que GitHub Pages publique el sitio.
+## Identidad visual
 
-El sitio es estático: no calcula ni cotiza todavía. Presenta la solución propuesta y sus módulos.
+- **Nombre:** A01741245
+- **Descriptor:** Soluciones Fotovoltaicas
+- **Colores:** #0B1F3A, #2473B8, #F5A623, #F4F7FA
+- **Tipografías:** Montserrat y Poppins
+- **Tono:** Profesional · Confiable · Tecnológico · Sostenible
+
+## Sitio
+
+El landing page incluye una explicación de la propuesta de valor, servicios fotovoltaicos, proceso de trabajo, alcance técnico y un simulador interactivo del comportamiento fotovoltaico integrado dentro de la misma página.
+
+## GitHub Pages
+
+El sitio se publica desde la rama `main` y la carpeta raíz del repositorio.
