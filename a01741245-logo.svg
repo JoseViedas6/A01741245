@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-labelledby="t d">
+<title id="t">A01741245 Soluciones Fotovoltaicas</title>
+<desc id="d">Logotipo circular con sol, panel fotovoltaico y órbita.</desc>
+<circle cx="260" cy="260" r="228" fill="#0B1F3A" stroke="#F5A623" stroke-width="12"/>
+<g fill="none" stroke="#F5A623" stroke-linecap="round">
+  <path d="M162 224 A108 108 0 0 1 358 224" stroke-width="19"/>
+  <g stroke-width="9">
+    <path d="M260 98v-34"/><path d="M207 109l-17-30"/><path d="M313 109l17-30"/>
+    <path d="M166 153l-29-17"/><path d="M354 153l29-17"/><path d="M143 204l-34-5"/><path d="M377 204l34-5"/>
+  </g>
+</g>
+<path d="M185 248l50-67h105l-47 75z" fill="#2473B8" stroke="#FFFFFF" stroke-width="5"/>
+<path d="M238 182l-22 69M287 182l-22 72M200 214h120" stroke="#FFFFFF" stroke-width="4"/>
+<path d="M128 292 Q258 225 398 186" fill="none" stroke="#F5A623" stroke-width="15" stroke-linecap="round"/>
+<text x="260" y="346" text-anchor="middle" fill="#FFFFFF" font-family="Montserrat,Arial,sans-serif" font-size="47" font-weight="800" font-style="italic">A01741245</text>
+<text x="260" y="390" text-anchor="middle" fill="#FFFFFF" font-family="Poppins,Arial,sans-serif" font-size="18" font-weight="600" letter-spacing="6">SOLUCIONES</text>
+<text x="260" y="417" text-anchor="middle" fill="#FFFFFF" font-family="Poppins,Arial,sans-serif" font-size="18" font-weight="600" letter-spacing="5">FOTOVOLTAICAS</text>
+<path d="M245 455h-56M331 455h-56" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+<path d="M267 433l-16 28h14l-8 27 28-38h-16l11-17z" fill="#F5A623"/>
+</svg>
